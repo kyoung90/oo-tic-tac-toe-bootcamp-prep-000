@@ -106,8 +106,8 @@ class TicTacToe
   end
   
   def winner
-    if won?()
-      return board[won?()[0]]
+    if self.class.won?
+      return board[self.class.won?[0]]
     end
   end
   
