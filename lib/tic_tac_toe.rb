@@ -112,7 +112,7 @@ class TicTacToe
   end
   
   def play
-    until self.class.over?
+    until self.over?
       self.class.turn
     end
   
