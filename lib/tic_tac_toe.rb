@@ -117,8 +117,8 @@ class TicTacToe
     end
   
     if self.class.won?
-      puts "Congratulations #{winner()}!"
-    elsif draw?()
+      puts "Congratulations #{self.class.winner}!"
+    elsif self.class.draw?
       puts "Cat's Game!"
     end
   end
