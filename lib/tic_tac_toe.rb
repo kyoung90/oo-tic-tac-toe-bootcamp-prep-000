@@ -90,7 +90,7 @@ class TicTacToe
   end
   
   def draw?
-    if self.class.full? && !self.class.won?
+    if self.full? && !self.won?
       return true
     else 
       return false
