@@ -90,7 +90,7 @@ class TicTacToe
   end
   
   def draw?
-    if full?() && !won?()
+    if self.class.full? && !self.class.won?
       return true
     else 
       return false
@@ -98,7 +98,7 @@ class TicTacToe
   end
   
   def over?
-    if draw?() || won?()
+    if self.class.draw? || self.class.won?
       return true
     else 
       return false
