@@ -61,7 +61,7 @@ class TicTacToe
   end
   
   def current_player
-    turn = self.class.turn_count
+    turn = self.turn_count
     str = turn % 2 == 0 ? "X" : "O" 
   end
   
